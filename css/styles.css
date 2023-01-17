@@ -1,1 +1,27 @@
+@charset "UTF-8" ;
+
+/* common -------------------------------------------------*/
+*{paddig:0; margin:0; box-sizing: border-box; font-family: "noto sans KR", sans-serif; color:#333;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+
+
+/* header -------------------------------------------------*/
+header{height: 100px; display: flex; align-item: center;}
+header h2, footer. footerLogo{display: block; width: 200px; height: 40px; font-size: 0px; color:transparent;}
+header nav{width: 600px; margin: 0 0 0 370px;}
+header nav >ul{display: flex;}
+header ul a{display: block; text-align: center; padding:10px; backgraound: #fff;}
+
+li.class명 {position: relative; width: 25%;}
+li.class명 >a{font-size: 16px; font-weight: 600;}
+ul.class명{position:absolute; width: 100%; z-index:998; display:none;}
+
+li.class명:hover >a{color:fff; background: rgb(26, 96, 161);}
+ul.class명 li:hover >a{color:#fff; background: rgb(88, 139, 216);}
+
+/* footer -------------------------------------------------*/
+footer{display: flex; height: align-item:center;}
+footer . footerLogo{display:block; width: height: color:transparent;}
 
