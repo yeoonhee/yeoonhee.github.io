@@ -3,15 +3,19 @@
     <head>
     <meta charset="UTF-8">
         <title>yeonhee homepage</title>
-        <nav id="">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./script/제이쿼리파일명.js"></script>
+    </head>
+    <body>
+        <header>
+        <nav>
             <ul>
                 <li>
                     <a href="">데이터찾기</a>
-                    <div> 
-                        <a href="">데이터명1</a>
-                        
-                        <a> href="">데이터명2</a>
-                    </div>
+                    <ul> 
+                        <li><a href="">데이터명1</a></li>
+                        <li><a> href="">데이터명2</a></li>
+                    </ul>
                 </li>
             <li>
                 <a href="링크">데이터분야</a>
@@ -21,25 +25,24 @@
             </li>
             
             </ul>
+            
         </nav>
+        </header>
         
-        <span>
-            <a href="#menuall" class="menuall"><span>전체메뉴</span></a>
-        </span>
-       
-        <div class="headsearch searchwrap">
+        <div>
+             <div class="headsearch searchwrap">
             <form action="링크" method="GET" name="" id="">
                 <input type="text" id="headsearchinput" name="" title="검색어" data-placeholder="찾으시는 데이터를 입력해주세요">
                 <button type="button" onclick="unitySearchHeaderBtnClick() "><span>검색</span></button>
             </form>
             <ul id="headSearchUL"></ul>
-        </div>
-        </head>
+            </div>
         
-    
-     <body>
-    </body>
-    <footer id="footer">
+            <div class=""><a href="#"><h2>데이터명1</h2><img src="이미지링크" alt="데이터명이미지"></a></div>
+            <div class=""><a href="#"><h2>데이터명2</h2><img src="이미지링크" alt="데이터명이미지"></a></div>
+        </div>
+        
+        <footer id="footer">
         <div class="contentWrap">
         <span class="link">
             <a href="링크" title="새 창 열림" target="_blank"><span>참여기관1</span></a>
@@ -56,4 +59,7 @@
    
         </div>
     </footer>
+     
+    </body>
+    
 </html>
